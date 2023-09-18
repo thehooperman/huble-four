@@ -15,7 +15,7 @@ h3 {
 }
 
 p {
-  letter-spacing: 0.7px;
+  letter-spacing: 0.4px;
   margin: 9px 0;
 }
 
@@ -31,7 +31,7 @@ p {
   padding: 1rem;
 }
 
-.container { 
+.container {
   background-color: white;
   border-radius: 16px;
   display: flex;
@@ -52,7 +52,6 @@ p {
   }
 
   .accordion {
-
     &__image {
       &--display {
         display: none;
@@ -152,5 +151,3 @@ p {
     }
   }
 }
-
-
