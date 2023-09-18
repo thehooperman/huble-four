@@ -4,7 +4,6 @@ import titleImg from "/Title-Escrow.png";
 import schedulingImg from "/Scheduling.png";
 import notaryImg from "/Notary-signing-Agents.png";
 import LinkArrow from "./LinkArrow.jsx";
-import ArrowRight from "/arrow-right.svg";
 import "../App.scss";
 
 const Accordion = () => {
