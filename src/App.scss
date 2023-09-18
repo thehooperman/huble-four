@@ -2,9 +2,12 @@
 
 h2 {
   font-family: "Gilroy-Bold";
-  font-size: 33px;
+  font-size: 26px;
   font-weight: 500;
   margin: 4px 0;
+  @media screen and (min-width: 990px) {
+    font-size: 33px;
+  }
 }
 
 h3 {
@@ -38,17 +41,23 @@ p {
   flex-direction: column;
   gap: 34px;
   max-width: 1170px;
-  padding: 80px;
+  padding: 80px 0;
   width: 100%;
 
   &__header {
     max-width: 1010px;
     text-align: center;
+    margin: 0 16px;
     min-height: 34px;
   }
 
   .row {
     display: flex;
+    margin: 0 16px;
+    max-width: 1010px;
+    @media screen and (min-width: 768px) {
+      margin: 0 80px;
+    }
   }
 
   .accordion {
@@ -70,12 +79,19 @@ p {
 
     &__left {
       padding-right: 24px;
-      width: 57%;
+      width: 100%;
+      @media screen and (min-width: 768px) {
+        width: 57%;
+      }
     }
 
     &__right {
+      display: none;
       padding-top: 16px;
       width: auto;
+      @media screen and (min-width: 768px) {
+        display: block;
+      }
 
       .accordion__item {
         border: none;
