@@ -84,10 +84,6 @@ p {
 
     &__item {
       border-bottom: 1px solid #1a2538;
-      &--open {
-        // transform-origin: 50% 0;
-        // animation: open-content .3s linear;
-      }
 
       &:last-child {
         border-bottom: none;
